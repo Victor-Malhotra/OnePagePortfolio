@@ -4,10 +4,10 @@
  *   
  *========================================================================**/
 
-$size: 60px;
-$speed: 2.5s;
-$clr1: rgb(255, 1, 1);
-$clr2: #97f;
+$size: 57px;
+$speed: 1.5s;
+$clr1: #fff;
+$clr2: #0b4;
 $clr3: #ff0;
 .loader-container {
     .watermark {
@@ -64,8 +64,10 @@ $clr3: #ff0;
         }
         &>div {
             position: absolute;
-            background-color: rgba(37, 37, 37, 0.8);
-            box-shadow: 0 0 $size * 0.5 #000 inset;
+            background-color: rgba(121, 255, 199, 0.116);
+            box-shadow: 1px 0 $size * 0.25 #000 inset;
+            border: .5rem solid rgb(1, 39, 46);
+            border-radius: 1.9rem;
             overflow: hidden;
             &:nth-child(n+3)::before {
                 content: '';
@@ -157,6 +159,7 @@ $clr3: #ff0;
         width: $size * 2;
         height: $size * 2;
         border: 2px solid var(--clr);
+        border-radius: 50%;
         transform-style: preserve-3d;
         animation: neonMove $speed infinite ease-in-out alternate;
         box-shadow: 0 0 $size*0.2 var(--clr) inset, 0 0 $size*0.2 var(--clr);

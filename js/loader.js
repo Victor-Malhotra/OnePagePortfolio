@@ -1,7 +1,8 @@
-            $(window).on('load', function() {
-                $('#loaderContainer').delay(5000).fadeOut(9000);
-            })
-
-            // window.onload = function() {
-            //     $(".loader-container").fadeOut(2000);
-            // }
+$(window).on('load', function() {
+    var hideScrollBar = setTimeout(function() {
+        $('body').css({
+            'overflow': 'auto'
+        })
+    }, 8500);
+    $('#loaderContainer').delay(6000).fadeOut(3000);
+})

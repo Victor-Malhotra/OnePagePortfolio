@@ -4,13 +4,12 @@
  *   
  *========================================================================**/
 .carousel {
-  background-image: repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+  background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
   text-align: center;
   height: 50rem;
   width: 100%;
   overflow: hidden;
   display: flex;
-  background: #f3f3f3;
   perspective: 62.5rem;
   transform-style: preserve-3d;
 }
@@ -25,7 +24,7 @@
 }
 
 .carousel .title h1 {
-  color: black;
+  color: rgba(193, 242, 243, 0.863);
   text-align: center;
 }
 
@@ -70,7 +69,7 @@
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%) rotateX(90deg);
-  background-image: radial-gradient(#ebe5e5c2 12%, #00000000 75%);
+  background-image: radial-gradient(transparent, #00000000 25%);
 }
 
 @keyframes spin {

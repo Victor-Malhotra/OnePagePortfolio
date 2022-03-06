@@ -11,21 +11,28 @@
     box-sizing: border-box;
 }
 
+
+/**========================================================================
+ **                            THE ACTUAL MATTERS PART SCSS
+ *========================================================================**/
+
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
 }
 
 .bumper {
     width: 100%;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
 }
 
 .horizontal-section,
 .horizontal-section2 {
     padding: 0 0;
-    background-color: pink;
+    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
 }
 
 .sticky-wrapper,
@@ -45,7 +52,9 @@ body {
 .element {
     width: 800px;
     height: 700px;
-    background-color: purple;
+    background-color: #7aeef0dc;
+    background-image: linear-gradient(to bottom right, #084158, #111c58, #0e1b2b);
     margin: 0 10px 0 0;
+    margin-top: 20px;
     flex-shrink: 0;
 }

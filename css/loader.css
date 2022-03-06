@@ -4,14 +4,14 @@
  *   
  *========================================================================**/
 .loader-container {
-  background-color: #00101a;
+  background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
   color: #fff;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   perspective: 900px;
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }

@@ -73,7 +73,8 @@
   position: absolute;
   background-color: rgba(121, 255, 199, 0.116);
   box-shadow: 1px 0 14.25px #000 inset;
-  border: 0.5rem solid #01272e;
+  border: 0.5rem ridge #01272e;
+  border: 1rem double #01272e inset;
   border-radius: 1.9rem;
   overflow: hidden;
 }

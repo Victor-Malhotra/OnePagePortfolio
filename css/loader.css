@@ -115,8 +115,8 @@
 
 .loader-container .pole:nth-child(5) > div::before,
 .loader-container .pole:nth-child(6) > div::before {
-  --clr: #ff0;
-  --clr0: #ff00;
+  --clr: #fe7;
+  --clr0: #fe70;
 }
 
 .loader-container .pole:nth-child(1) > div::before {
@@ -204,7 +204,7 @@
 }
 
 .loader-container .neon_c {
-  --clr: #ff0;
+  --clr: #fe7;
   --x: 0;
   --y: 90deg;
   animation-delay: -1s;

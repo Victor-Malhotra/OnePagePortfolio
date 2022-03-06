@@ -1,8 +1,8 @@
 var radius = 450;
 var autoRotate = true;
-var rotateSpeed = -70;
-var imgWidth = 298;
-var imgHeight = 288;
+var rotateSpeed = -90;
+var imgWidth = 328;
+var imgHeight = 308;
 
 setTimeout(init, 1000);
 
@@ -11,16 +11,16 @@ var ospin = document.getElementById('spin');
 var aImg = ospin.getElementsByTagName('card');
 var aEle = [...aImg];
 
-ospin.style.width = imgWidth + "px";
-ospin.style.height = imgHeight + "px";
+ospin.style.width = (imgWidth / 16) + "rem";
+ospin.style.height = (imgHeight / 16) + "rem";
 
 var ground = document.getElementById('ground');
-ground.style.width = radius * 3 + "px";
-ground.style.height = radius * 3 + "px";
+ground.style.width = ((radius * 3) / 16) + "rem";
+ground.style.height = ((radius * 3) / 16) + "rem";
 
 function init(delayTime) {
     for (let i = 0; i < aEle.length; i++) {
-        aEle[i].style.transform = "rotateY(" + (i * (360 / aEle.length)) + "deg) translateZ(" + radius + "px)";
+        aEle[i].style.transform = "rotateY(" + (i * (360 / aEle.length)) + "deg) translateZ(" + (radius / 16) + "rem)";
         aEle[i].style.transition = "transform 1s";
         aEle[i].style.transitionDelay = delayTime || (aEle.length - i) / 4 + "s";
     }

@@ -1,57 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  height: 50%;
+/**========================================================================
+ *   
+ *   //* CAROUSEL 
+ *   
+ *========================================================================**/
+.carousel {
+  background-image: repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+  text-align: center;
+  height: 50rem;
   width: 100%;
   overflow: hidden;
   display: flex;
-  background: #070716;
-  perspective: 1000px;
+  background: #f3f3f3;
+  perspective: 62.5rem;
   transform-style: preserve-3d;
 }
 
-body #drag,
-body #spin {
+.carousel .title {
+  left: 46%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.carousel .title h1 {
+  color: black;
+  text-align: center;
+}
+
+.carousel #drag,
+.carousel #spin {
   position: relative;
   display: flex;
   margin: auto;
+  margin-top: 6rem;
   transform-style: preserve-3d;
   transform: rotateX(-10deg);
 }
 
-body #drag img {
+.carousel #drag card {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #070716;
+  color: rgba(122, 238, 240, 0.863);
   transform-style: preserve-3d;
   position: absolute;
   left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
-  line-height: 200px;
+  letter-spacing: .01rem;
+  line-height: 1.25rem;
   text-align: center;
-  box-shadow: 0 0 8px #ffffff;
-  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #00000055);
+  box-shadow: .063rem 0 .5rem #0a0a7ecc, inset 0.125rem 0.125rem .313rem #ffffff;
+  -webkit-box-reflect: below 0.625rem linear-gradient(transparent, transparent, #00000036);
 }
 
-body #drag img:hover {
-  box-shadow: 0 0 15px #ffffffdd;
-  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #00000077);
+.carousel #drag card:hover {
+  box-shadow: 0.125rem 0 .938rem #2929ac70, inset 0.125rem 0.125rem .313rem #ffffffdd;
+  -webkit-box-reflect: below 0.75rem linear-gradient(transparent, transparent, #000000ea);
 }
 
-body #drag #ground {
-  width: 900px;
-  height: 900px;
+.carousel #drag #ground {
+  width: 56.25rem;
+  height: 56.25rem;
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%) rotateX(90deg);
+  background-image: radial-gradient(#ebe5e5c2 12%, #00000000 75%);
 }
 
 @keyframes spin {

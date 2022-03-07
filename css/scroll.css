@@ -22,7 +22,7 @@
 .sticky-wrapper,
 .sticky-wrapper2 {
   position: sticky;
-  top: 50px;
+  top: 3.125rem;
   width: 100%;
   overflow: hidden;
 }
@@ -34,12 +34,12 @@
 }
 
 .element {
-  width: 800px;
-  height: 700px;
+  width: 50rem;
+  height: 43.75rem;
   background-color: #7aeef0dc;
   background-image: linear-gradient(to bottom right, #084158, #111c58, #0e1b2b);
-  margin: 0 10px 0 0;
-  margin-top: 20px;
+  margin: 0 .625rem 0 0;
+  margin-top: 1.25rem;
   flex-shrink: 0;
 }
 /*# sourceMappingURL=scroll.css.map */

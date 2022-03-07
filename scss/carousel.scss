@@ -4,31 +4,54 @@
  *   
  *========================================================================**/
 
+$clr-neon: hsl(221, 46%, 59%);
+$clr-bg: hsl(204, 88%, 53%);
+@font-face {
+    font-family: "NeonFont";
+    src: url("../fonts/NeonFont/neonFontBolder.otf"),
+}
+
 .carousel {
-    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
     text-align: center;
-    height: 50rem;
+    height: 68rem;
     width: 100%;
     overflow: hidden;
     display: flex;
-    // background: #f3f3f3;
+    background: #f3f3f3;
     perspective: 62.5rem;
     // perspective-origin: 50% calc(50%-2em);
     transform-style: preserve-3d;
     .title {
-        left: 46%;
-        top: 0;
+        font-weight: bolder;
+        z-index: l0000;
+        top: 10px;
         margin: 0;
         padding: 0;
         position: absolute;
         text-align: center;
+        width: 100vw;
         h1 {
-            color: rgba(193, 242, 243, 0.863);
-            text-align: center;
+            font-family: NeonFont;
+            // background: $clr-bg;
+            color: $clr-neon;
+            color: $clr-neon;
+            font-size: 4rem;
+            display: inline-block;
+            // cursor: pointer;
+            text-decoration: none;
+            // border: $clr-neon .225em double;
+            border: $clr-neon .125 solid;
+            padding: .25em 1em;
+            border-radius: .25em;
+            text-shadow: 0 0 .125em hsla(0, 0%, 100%, 0.5), 0 0 .45em $clr-neon;
+            box-shadow: inset 0 0 0.9em 0 $clr-neon, 0 -.2em 1em 0 $clr-neon;
+            position: relative;
         }
     }
     #drag,
     #spin {
+        top: 30px;
+        z-index: -10;
         position: relative;
         display: flex;
         margin: auto;
@@ -38,6 +61,7 @@
     }
     #drag {
         card {
+            text-align: center;
             font-family: 'Press Start 2P', cursive;
             background-color: #070716;
             color: rgba(122, 238, 240, 0.863);
@@ -49,9 +73,6 @@
             bottom: 0;
             width: 100%;
             height: 100%;
-            letter-spacing: .01rem;
-            line-height: 1.25rem;
-            text-align: center;
             box-shadow: .063rem 0 .5rem #0a0a7ecc, inset 0.125rem 0.125rem .313rem #ffffff;
             -webkit-box-reflect: below .625rem linear-gradient(transparent, transparent, #00000036);
             &:hover {
@@ -66,7 +87,67 @@
             top: 100%;
             left: 50%;
             transform: translate(-50%, -50%)rotateX(90deg);
-            background-image: radial-gradient(transparent, #00000000 25%);
+            background-image: radial-gradient(transparent, transparent 85%);
+        }
+    }
+}
+
+.card {
+    text-align: center;
+    padding-top: 0;
+    position: relative;
+    width: clac(335/16)rem;
+    height: clac(400/16)rem;
+    h2 {
+        padding-top: 10px;
+        // padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    p {
+        margin-bottom: 89px;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-transform: capitalize;
+    }
+    h2,
+    p,
+    a {
+        opacity: 0;
+        transition: 0.3s;
+        transform: translateY(20px);
+    }
+    &:hover h2,
+    &:hover p,
+    &:hover a {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.5s;
+    }
+    .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s;
+        clip-path: circle(70.7% at 50% 50%);
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &:hover {
+        .img {
+            clip-path: circle(18.2% at 50% 38%);
         }
     }
 }

@@ -1,38 +1,26 @@
-:root {
-    font-size: 16px;
+@font-face {
+    font-family: "NeonFont";
+    src: url("../fonts/NeonFont/neonFont.ttf"),
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-*,
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 
 /**========================================================================
  **                            THE ACTUAL MATTERS PART SCSS
  *========================================================================**/
 
-body {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
-}
-
 .bumper {
+    // font-size: 50px;
+    // font-family: NeonFont;
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
+    height: 150vh;
+    background: #f3f3f3;
 }
 
 .horizontal-section,
 .horizontal-section2 {
     padding: 0 0;
-    background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
+    background: #f3f3f3;
 }
 
 .sticky-wrapper,

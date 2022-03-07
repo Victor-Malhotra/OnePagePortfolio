@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,2DAA2D;EAC7E,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb",
+    "mappings": "",
     "sources": [
         "../scss/bootstrapChanges.scss"
     ],

@@ -3,6 +3,6 @@ $(window).on('load', function() {
         $('body').css({
             'overflow': 'auto'
         })
-    }, 10500);
-    $('#loaderContainer').delay(6000).fadeOut(4500);
+    }, 7500);
+    $('#loaderContainer').delay(3000).fadeOut(3000);
 })

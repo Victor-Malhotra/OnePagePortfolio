@@ -1,8 +1,8 @@
-var radius = 450;
+var radius = 300;
 var autoRotate = true;
-var rotateSpeed = -90;
-var imgWidth = 328;
-var imgHeight = 308;
+var rotateSpeed = -180;
+var imgWidth = 300;
+var imgHeight = 290;
 
 setTimeout(init, 1000);
 

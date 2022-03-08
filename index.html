@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/flip-card.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/skills.css">
 </head>
 
 <body>
@@ -107,15 +108,22 @@
                     <a class="nav-link" href="#about_me">About Me</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#my_work_section" class="nav-link">My Work</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact_me_section">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a href="#resume_section" class="nav-link">Resume</a>
                 </li>
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>                        
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -135,7 +143,7 @@
 
                     <div id="drag">
                         <div id="spin">
-                            <card id="card2" class="card">
+                            <card id="card2" class="card_first">
                                 <div class="img">
                                     <img src="images/VictorIMG.jpg" alt="">
                                 </div>
@@ -174,7 +182,7 @@
                                         <div class="flip-card-back" style="background-color: rgb(255, 145, 0);">
 
                                             <section class="skills section" id="skills">
-                                                <h2 class="section-title"> <a href="#Skills_section" style="text-decoration: none; cursor: pointer; background-color: transparent; border: none;color: rgb(82, 41, 4);">Skills</a> </h2>
+                                                <h2 class="section-title"> <a href="#skills" style="text-decoration: none; cursor: pointer; background-color: transparent; border: none;color: rgb(82, 41, 4);">Skills</a> </h2>
                                                 <div class="skills__content bd-grid">
                                                     <div class="skills__data" style="padding: 3px;list-style: none;">
                                                         <li class="skills__name">
@@ -258,7 +266,7 @@
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front text-center">
-                                            <span style="font-size: 2rem; margin-top: 50%; color: rgb(232, 247, 33);"> <br>CONNECT <br> TO ME</span>
+                                            <span style="font-size: 2rem; margin-top: 50%; color: rgb(232, 247, 33);"> <br>CONNECT <br> WITH ME</span>
                                         </div>
                                         <div class="flip-card-back" style="background-color: rgb(232, 247, 33);">
                                             <h1> <a href="#contact_me_section" style="text-decoration: none; cursor: pointer; background-color: transparent; border: none;color: #000;">Connect TO ME</a> </h1>
@@ -285,141 +293,239 @@
                     </div>
                 </div>
             </div>
-            <div class="contianer col-lg-12 text-center">
-              <div class="title"><h1>My Work</h1></div>
-            </div>
-            <div class="bumper">
-              <div class="section"></div>
-            </div>
-            
-            <div class="horizontal-section ">
-                <div class="sticky-wrapper">
-                    <div class="element-wrapper container-fluid">
-                        <div class="starter_element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                        <div class="element"></div>
-                    </div>
-                </div>
-            </div>
-            <div id="contact_me_section"></div>
-            <br>
-            <br>
-            <hr>
+    </article>
+
+    <div class="container col-lg-12" id="skills_section">
+        <div class="bumper">
 
 
             <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <p>You may call me anytime if you are willing to hire me or learn about a random fact or just to ring me up. if you email me it might take a little more time to reply due to the fact that I have school and West-MEC. You can expect
-                                a response in at least 32 hours since you sent the email. If you wish to text me please state your name and email and tell me what you want.</p>
-                            <hr>
-                        </div>
+
+                <div class="wrap">
+                    <h1 class="text-center">Skills</h1>
+                    <div class="bar">
+                        <h3>CSS <abbr>60%</abbr></h3>
+                        <div class="thumb"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <h3>JS <abbr>80%</abbr></h3>
+                        <div class="thumb"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <h3>PHP<abbr>40%</abbr></h3>
+                        <div class="thumb"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <h3>HTML <abbr>90%</abbr></h3>
+                        <div class="thumb"><span></span></div>
                     </div>
                 </div>
             </section>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="skills"></div>
+    </div>
+    <div id="my_work_section"></div>
+    <br>
+    <div class="horizontal-section ">
+        <div class="sticky-wrapper">
 
-            <section class="form-section">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <form action="https://formsubmit.co/e37bce064f7e1870a53a7dca208f2560 " method="POST" enctype="multipart/form-data">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name *" required/>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email Address *" required/>
-                                    </div>
-                                </div>
+            <div class="element-wrapper container-fluid">
+                <div class="starter_element"></div>
+                <div class="element card mb-12 box-shadow">
 
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number *" required/>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <select class="form-control" name="" id="">
+                    <img class="card-img-top  box-shadow" width="95% " height="65% " src="images/Hummus.png " alt="Card image cap " />
+                    <div class="card-body ">
+                        <p class="card-text ">
+
+                            <h2>Hummus Site</h2>
+                            A Starter project that was given in West-MEC just using CSS and HTML
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="btn-group ">
+                                <a type="button " href="https://victormal001.github.io/Hummus/ " target="_blank " class="btn btn-sm btn-outline-light">
+                        View
+                      </a>
+                                <a type="button " href="https://github.com/VictorMal001/Hummus " target="_blank " class="btn btn-sm btn-outline-light ">
+                                    <i class="fab fa-github fa-2x text-green-50 "></i>
+                                </a>
+                            </div>
+                            <small class="text-muted ">9 mins</small>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="element card mb-12">
+
+                    <img class="card-img-top box-shadow" width="95% " height="65% " src="images/SciFloor.png " alt="Card image cap " />
+                    <div class="card-body ">
+                        <p class="card-text ">
+                            <h2>SciFloors</h2>
+                            A simple HTML and CSS Group assignment for West-MEC Coding.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="btn-group ">
+                                <a type="button " href="https://victormal001.github.io/sci-floors/ " target="_blank " class="btn btn-sm btn-outline-light ">
+                        View
+                      </a>
+                                <a type="button " href="https://github.com/VictorMal001/sci-floors " target="_blank " class="btn btn-sm btn-outline-light ">
+                                    <i class="fab fa-github fa-2x text-green-50 "></i>
+                                </a>
+                            </div>
+                            <small class="text-muted ">9 mins</small>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="element card mb-12">
+
+                    <img class="card-img-top  box-shadow" width="95% " height="65% " src="images/Grid.png " alt="Card image cap " />
+                    <div class="card-body ">
+                        <p class="card-text ">
+                            <h2>CSS Grid</h2>
+                            Sample CSS Grid alignment example for a gallery page.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="btn-group ">
+                                <a type="button " href="https://victormal001.github.io/Picture-Grid-Project/ " target="_blank " class="btn btn-sm btn-outline-light "> View </a>
+                                <a type="button " href="https://github.com/VictorMal001/Picture-Grid-Project " target="_blank " class="btn btn-sm btn-outline-light ">
+                                    <i class="fab fa-github fa-2x text-green-50 "></i>
+                                </a>
+                            </div>
+                            <small class="text-muted ">9 mins</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container col-lg-12 text-center">
+                <div class="title">
+
+                    <h1><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> &nbsp; My Work &nbsp; <i class="fa fa-arrow-circle-up" aria-hidden="true"></i></h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="contact_me_section"></div>
+    <br>
+    <br>
+    <hr>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>You may call me anytime if you are willing to hire me or learn about a random fact or just to ring me up. if you email me it might take a little more time to reply due to the fact that I have school and West-MEC. You can expect a response
+                        in at least 32 hours since you sent the email. If you wish to text me please state your name and email and tell me what you want.</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <form action="https://formsubmit.co/e37bce064f7e1870a53a7dca208f2560 " method="POST" enctype="multipart/form-data">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name *" required/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address *" required/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number *" required/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select class="form-control" name="" id="">
                                     <option selected>Choose Country</option>
                                     <option>USA</option>
                                     <option>India</option>
                                     <option>England</option>
                                     <option>China</option>
                                 </select>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject *" required />
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Type your message here"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <input type="file" name="attachment" accept="image/png, image/jpeg">
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12 text-center">
-                                        <a href="mailto:victorrmalhotra@gmail.com">
-                                            <button type="submit" class="btn btn-primary"><i class="fa fa-send"></i> Send Message</button>
-                                        </a>
-                                    </div>
-                                    <input type="hidden" name="_cc" value="vmalho393@west-mec.org" style="display:none">
-                                    <input type="hidden" name="_autoresponse" value="You have made contact with victor please wait for at least a day for a message">
-                                    <input type="hidden" name="_next" value="index.html" style="display: none">
-                                    <input type="hidden" name="_template" value="table">
-                                    <input type="hidden " name="_url " value="https://victormal001.github.io/My-Portfolio/contact.html" style="display: none">
-                                    <input type="text" name="_honey" style="display:none">
-                                </div>
-
-
-                            </form>
-                            <hr>
-                            <!-- $ git commit -m "Fix a server error abnd make it so my html works as intended" -->
+                            </div>
                         </div>
-                        <div class="col-md-6 address">
-                            <h5>Call Me</h5>
-                            <p><a href="tel:+16027840144 "><i class="fa fa-phone-alt "></i>+1(602) 784-0144</a></p>
-                            <h5>Email / Site</h5>
-                            <p>
-                                <a href="mailto:victorrmalhotra@gmail.com "><i class="fa fa-envelope "></i> victorrmalhotra@gmail.com</a><br>
-                                <a href="https://victormal001.github.io/My-Portfolio/ "><i class="fa fa-globe "></i>https://victormal001.github.io/My-Portfolio/</a>
-                            </p>
-                            <h5>Working Hours</h5>
-                            <p>
-                                Mon - Fri : 7:10pm - 9pm (USA-Mountain Standard Time)<br> Sat - Sun : 9am - 8pm (USA-Mountain Standard Time)
-                            </p>
-                            <h5>Quick Who am I</h5>
-                            <p>
-                                My Name is Victor and I am coder I can do back-end and front-end. I am currently looking for a coding job. I am 16 and have no college degree but I go to West-MEC NEC
-                            </p>
-                            <br>
-                            <br>
-
-                            <hr>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject *" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Type your message here"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 text-center">
+                                <a href="mailto:victorrmalhotra@gmail.com">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-send"></i> Send Message</button>
+                                </a>
+                            </div>
+                            <input type="hidden" name="_cc" value="vmalho393@west-mec.org" style="display:none">
+                            <input type="hidden" name="_autoresponse" value="You have made contact with victor please wait for at least a day for a message">
+                            <input type="hidden" name="_next" value="index.html" style="display: none">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden " name="_url " value="https://victormal001.github.io/My-Portfolio/contact.html" style="display: none">
+                            <input type="text" name="_honey" style="display:none">
                         </div>
 
-                    </div>
+
+                    </form>
+                    <hr>
+                    <!-- $ git commit -m "Fix a server error abnd make it so my html works as intended" -->
                 </div>
-            </section>
-            <section>
-                <div class="container-fluid map" id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13282.864729557932!2d-112.20263465!3d33.6645152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1633757781050!5m2!1sen!2sus " width="100% " height="400px
+                <div class="col-md-6 address">
+                    <h5>Call Me</h5>
+                    <p><a href="tel:+16027840144 "><i class="fa fa-phone-alt "></i>+1(602) 784-0144</a></p>
+                    <h5>Email / Site</h5>
+                    <p>
+                        <a href="mailto:victorrmalhotra@gmail.com "><i class="fa fa-envelope "></i> victorrmalhotra@gmail.com</a><br>
+                        <a href="https://victormal001.github.io/My-Portfolio/ "><i class="fa fa-globe "></i>https://victormal001.github.io/My-Portfolio/</a>
+                    </p>
+                    <h5>Working Hours</h5>
+                    <p>
+                        Mon - Fri : 7:10pm - 9pm (USA-Mountain Standard Time)<br> Sat - Sun : 9am - 8pm (USA-Mountain Standard Time)
+                    </p>
+                    <h5>Quick Who am I</h5>
+                    <p>
+                        My Name is Victor and I am coder I can do back-end and front-end. I am currently looking for a coding job. I am 16 and have no college degree but I go to West-MEC NEC
+                    </p>
+                    <br>
+                    <br>
+
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13282.864729557932!2d-112.20263465!3d33.6645152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1633757781050!5m2!1sen!2sus " width="100% " height="400px
                                 " style="border:0; " allowfullscreen=" " loading="lazy " frameborder="0 "></iframe>
-                </div>
+        </div>
 
-            </section>
-            <!-- 
+    </section>
+    <!-- 
         <div class="horizontal-section2">
             <div class="sticky-wrapper2">
                 <div class="element-wrapper2">
@@ -430,21 +536,25 @@
                 </div>
             </div>
         </div> -->
-                <div class="embed-responsive embed-responsive-1by1 bumper_bottom" height="100%">
-                    <iframe src="https://victormal001.github.io/Resume/" class="embed-responsive-item"></iframe>
-                </div>
+    <section id="resume_section">
+        <br>
+        <div class="embed-responsive embed-responsive-1by1 bumper_bottom" height="100%">
+            <iframe src="https://victormal001.github.io/Resume/" class="embed-responsive-item"></iframe>
+        </div>
+    </section>
 
-            
-            <script src="assets/js/html2pdf.bundle.min.js "></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/html2pdf.bundle.min.js "></script>
 
-            <!--========== MAIN JS ==========-->
-            <script src="assets/js/main.js "></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-            <script src="js/scroll.js"></script>
-            <script src="js/carousel.js"></script>
-            <script src="js/loader.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/skills.js"></script>
 </body>
 
 </html>

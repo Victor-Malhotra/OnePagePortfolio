@@ -41,6 +41,9 @@
 }
 
 .element {
+  padding: 10px;
+  padding-top: 13px;
+  color: #fff;
   width: 50rem;
   height: 38.75rem;
   background-color: #7aeef0dc;
@@ -50,8 +53,12 @@
   flex-shrink: 0;
 }
 
+.element .box-shadow {
+  box-shadow: 0 2px 30px #e3eff0;
+}
+
 .starter_element {
-  width: 14.45rem;
+  width: 4.45rem;
   height: 40.75rem;
   background-color: #f3f3f3;
   margin: 0 0.525rem 0 0;

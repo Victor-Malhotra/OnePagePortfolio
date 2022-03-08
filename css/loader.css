@@ -4,7 +4,7 @@
  *   
  *========================================================================**/
 .loader-container {
-  background-image: linear-gradient(to bottom right, #000B23, #000B18, #000000);
+  background-image: linear-gradient(to bottom right, #ffffff, #f1f1f1, #e7e7e7);
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -71,16 +71,16 @@
 
 .loader-container .pole > div {
   position: absolute;
-  background-color: rgba(121, 255, 199, 0.116);
-  box-shadow: 1px 0 14.25px #000 inset;
+  background-color: rgba(87, 87, 87, 0.712);
+  box-shadow: 1px 0 14.25px #002025 inset;
   border: 0.5rem ridge #01272e;
   border: 1rem double #01272e inset;
   border-radius: 1.9rem;
   overflow: hidden;
 }
 
-.loader-container .pole > div:nth-child(n+3)::before {
-  content: '';
+.loader-container .pole > div:nth-child(n + 3)::before {
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -103,8 +103,8 @@
 
 .loader-container .pole:nth-child(1) > div::before,
 .loader-container .pole:nth-child(2) > div::before {
-  --clr: #fff;
-  --clr0: #fff0;
+  --clr: #bc11ff;
+  --clr0: #bc11ff0;
 }
 
 .loader-container .pole:nth-child(3) > div::before,
@@ -115,8 +115,8 @@
 
 .loader-container .pole:nth-child(5) > div::before,
 .loader-container .pole:nth-child(6) > div::before {
-  --clr: #fe7;
-  --clr0: #fe70;
+  --clr: #eeff00;
+  --clr0: #eeff000;
 }
 
 .loader-container .pole:nth-child(1) > div::before {
@@ -191,7 +191,7 @@
 }
 
 .loader-container .neon_a {
-  --clr: #fff;
+  --clr: #bc11ff;
   --x: 0;
   --y: 0;
 }
@@ -204,7 +204,7 @@
 }
 
 .loader-container .neon_c {
-  --clr: #fe7;
+  --clr: #eeff00;
   --x: 0;
   --y: 90deg;
   animation-delay: -1s;

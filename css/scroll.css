@@ -9,7 +9,14 @@
  *========================================================================**/
 .bumper {
   width: 100%;
-  height: 150vh;
+  height: 90vh;
+  background: #f3f3f3;
+}
+
+.bumper_bottom {
+  margin-top: 10px;
+  width: 100%;
+  height: 220vh;
   background: #f3f3f3;
 }
 
@@ -35,11 +42,20 @@
 
 .element {
   width: 50rem;
-  height: 43.75rem;
+  height: 38.75rem;
   background-color: #7aeef0dc;
   background-image: linear-gradient(to bottom right, #084158, #111c58, #0e1b2b);
-  margin: 0 .625rem 0 0;
-  margin-top: 1.25rem;
+  margin: 0 0.525rem 0 0;
+  margin-top: 0.56rem;
+  flex-shrink: 0;
+}
+
+.starter_element {
+  width: 14.45rem;
+  height: 40.75rem;
+  background-color: #f3f3f3;
+  margin: 0 0.525rem 0 0;
+  margin-top: 0.565rem;
   flex-shrink: 0;
 }
 /*# sourceMappingURL=scroll.css.map */

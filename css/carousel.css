@@ -38,16 +38,15 @@
   display: inline-block;
   text-decoration: none;
   border: #6685c7 0.125 solid;
-  padding: .25em 1em;
-  border-radius: .25em;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.5), 0 0 0.45em #6685c7;
-  box-shadow: inset 0 0 0.9em 0 #6685c7, 0 -0.2em 1em 0 #6685c7;
   position: relative;
 }
 
 .carousel #drag,
 .carousel #spin {
-  top: 30px;
+  top: 20px;
   z-index: -10;
   position: relative;
   display: flex;
@@ -59,7 +58,7 @@
 
 .carousel #drag card {
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background-color: #070716;
   color: rgba(122, 238, 240, 0.863);
   transform-style: preserve-3d;
@@ -70,13 +69,6 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  box-shadow: .063rem 0 .5rem #0a0a7ecc, inset 0.125rem 0.125rem .313rem #ffffff;
-  -webkit-box-reflect: below 0.625rem linear-gradient(transparent, transparent, #00000036);
-}
-
-.carousel #drag card:hover {
-  box-shadow: 0.125rem 0 .938rem #2929ac70, inset 0.125rem 0.125rem .313rem #ffffffdd;
-  -webkit-box-reflect: below 0.75rem linear-gradient(transparent, transparent, #000000ea);
 }
 
 .carousel #drag #ground {

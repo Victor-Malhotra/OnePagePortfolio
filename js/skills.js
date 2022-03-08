@@ -1,5 +1,5 @@
 gsap.from(".bar abbr", {
-    scrollTrigger: "#skills_section",
+    scrollTrigger: ".carousel",
     left: 0,
     ease: Power2.easeInOut,
     duration: 3,
@@ -7,7 +7,7 @@ gsap.from(".bar abbr", {
 });
 
 gsap.from(".bar span", {
-    scrollTrigger: ".bar",
+    scrollTrigger: ".carousel",
     width: "0px",
     ease: Power2.easeInOut,
     duration: 3,

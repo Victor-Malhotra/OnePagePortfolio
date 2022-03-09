@@ -45,7 +45,7 @@
 
 #skills_section section .wrap .bar .thumb span {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   height: 100%;
@@ -69,35 +69,35 @@
   box-shadow: 0 5px 30px rgba(0, 47, 255, 0.5), 0 5px 30px rgba(59, 199, 255, 0.5);
 }
 
-#skills_section section .wrap .bar:nth-child(1) span {
+#skills_section section .wrap .bar .css_span {
   width: 60%;
 }
 
-#skills_section section .wrap .bar:nth-child(1) abbr {
+#skills_section section .wrap .bar .css_abbr {
   left: 60%;
 }
 
-#skills_section section .wrap .bar:nth-child(2) span {
+#skills_section section .wrap .bar .js_span {
   width: 80%;
 }
 
-#skills_section section .wrap .bar:nth-child(2) abbr {
+#skills_section section .wrap .bar .js_abbr {
   left: 80%;
 }
 
-#skills_section section .wrap .bar:nth-child(3) span {
+#skills_section section .wrap .bar .php_span {
   width: 40%;
 }
 
-#skills_section section .wrap .bar:nth-child(3) abbr {
+#skills_section section .wrap .bar .php_abbr {
   left: 40%;
 }
 
-#skills_section section .wrap .bar:nth-child(4) span {
+#skills_section section .wrap .bar .html_span {
   width: 90%;
 }
 
-#skills_section section .wrap .bar:nth-child(4) abbr {
+#skills_section section .wrap .bar .html_abbr {
   left: 90%;
 }
 /*# sourceMappingURL=skills.css.map */

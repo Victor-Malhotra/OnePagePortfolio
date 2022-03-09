@@ -1,5 +1,8 @@
 gsap.from(".bar abbr", {
-    scrollTrigger: ".carousel",
+    scrollTrigger: {
+        trigger: "#type_skills",
+        toggleAction: "restart reset play reset",
+    },
     left: 0,
     ease: Power2.easeInOut,
     duration: 3,
@@ -7,7 +10,10 @@ gsap.from(".bar abbr", {
 });
 
 gsap.from(".bar span", {
-    scrollTrigger: ".carousel",
+    scrollTrigger: {
+        trigger: "#type_skills",
+        toggleAction: "restart restart play reset",
+    },
     width: "0px",
     ease: Power2.easeInOut,
     duration: 3,

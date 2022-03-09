@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "NeonFont";
-    src: url("../fonts/NeonFont/neonFont.ttf");
+  font-family: "NeonFont";
+  src: url("../fonts/NeonFont/neonFont.ttf");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -10,63 +10,63 @@
  *========================================================================**/
 
 .bumper {
-    // font-size: 50px;
-    // font-family: NeonFont;
-    width: 100%;
-    height: 90vh;
-    background: #f3f3f3;
+  // font-size: 50px;
+  // font-family: NeonFont;
+  width: 100%;
+  height: 90vh;
+  background: #f3f3f3;
 }
 
 .bumper_bottom {
-    margin-top: 10px;
-    // font-size: 50px;
-    // font-family: NeonFont;
-    width: 100%;
-    height: 220vh;
-    background: #f3f3f3;
+  margin-top: 10px;
+  // font-size: 50px;
+  // font-family: NeonFont;
+  width: 100%;
+  height: 220vh;
+  background: #f3f3f3;
 }
 
 .horizontal-section,
 .horizontal-section2 {
-    padding: 0 0;
-    background: #f3f3f3;
+  padding: 0 0;
+  background: #f3f3f3;
 }
 
 .sticky-wrapper,
 .sticky-wrapper2 {
-    position: sticky;
-    top: 3.125rem;
-    width: 100%;
-    overflow: hidden;
+  position: sticky;
+  top: 3.125rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .element-wrapper,
 .element-wrapper2 {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 .element {
-    padding: 10px;
-    padding-top: 13px;
-    color: #fff;
-    width: 50rem;
-    height: 38.75rem;
-    background-color: #7aeef0dc;
-    background-image: linear-gradient(to bottom right, #084158, #111c58, #0e1b2b);
-    margin: 0 0.525rem 0 0;
-    margin-top: 0.56rem;
-    flex-shrink: 0;
-    .box-shadow {
-        box-shadow: 0 2px 30px rgb(227, 239, 240);
-    }
+  padding: 10px;
+  padding-top: 13px;
+  color: #fff;
+  width: 50rem;
+  height: 38.75rem;
+  background-color: #7aeef0dc;
+  background-image: linear-gradient(to bottom right, #084158, #111c58, #0e1b2b);
+  margin: 0 0.525rem 0 0;
+  margin-top: 0.56rem;
+  flex-shrink: 0;
+  .box-shadow {
+    box-shadow: 0 2px 30px rgb(227, 239, 240);
+  }
 }
 
-.starter_element {
-    width: 4.45rem;
-    height: 40.75rem;
-    background-color: #f3f3f3;
-    margin: 0 0.525rem 0 0;
-    margin-top: 0.565rem;
-    flex-shrink: 0;
+.space_element {
+  width: 4.45rem;
+  height: 40.75rem;
+  background-color: #f3f3f3;
+  margin: 0 0.525rem 0 0;
+  margin-top: 0.565rem;
+  flex-shrink: 0;
 }
